@@ -1,0 +1,11 @@
+{
+    "terminal.integrated.env.osx": 
+    {
+        "PATH": ""
+    },
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "python.linting.lintOnSave": true,
+}

@@ -1,4 +1,5 @@
-X,Y,A,B = list(map(int, input().split()))
+
+X, Y, A, B = list(map(int, input().split()))
 
 
 # 最初はA戦略
@@ -26,7 +27,7 @@ while X + n_B * B >= Y:
 i = 0
 while True:
     if X + (n_B + i + 1) * B < Y:
-        i+=1
+        i += 1
     else:
         break
 n_B += i
